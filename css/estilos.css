@@ -76,4 +76,38 @@ body{
     left: 0; 
     
 }
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: url("../img/graficos/s2/boton.png");
+    
+}
 
+.carousel-control-next-icon:after
+{
+  content: '';
+  font-size: 40px;
+  color: #bccbfc;
+}
+
+.carousel-control-prev-icon:after {
+  content: '';
+  font-size: 40px;
+  color: #bccbfc;
+} */
+
+.carousel-indicators {
+    margin: 10px;
+    height: 0px;
+}
+
+.carousel-indicators ol {
+    width: 20%;
+}
+
+
+.carousel-indicators li{
+    height: 20px !important;
+    border-radius: 80% !important;
+    width: 3%;
+    background-color: #bccbfc;
+}
