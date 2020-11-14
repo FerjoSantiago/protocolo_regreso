@@ -111,3 +111,21 @@ body{
     width: 3%;
     background-color: #bccbfc;
 }
+
+#cubreboca,
+#sanadistancia,
+#celular,
+#temperatura,
+#lavarmanos,
+#silla{
+
+    z-index: 9998; 
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    background-color: #3fb7f4; 
+    display: none; 
+    
+}
