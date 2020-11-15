@@ -684,120 +684,318 @@
     <!-- Sección Nueva realidad | Medidas relacionadas -->
     <section>
         <div style="background-color: #1262f9;">
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="./img/graficos/s3/ola2.png" alt="" width="100%" height="100%">
-                </div>
-
-                <div class="col-md-8 py-5">
-
-                    <!-- ESCUELA -->
-                    <div style="float: right;">
-                         <button class="btn btn-lg" style="background-color: #5aeef2; color: #183970; padding: 20px 25px; border-radius: 30px; border-top-right-radius: 0px; border-bottom-right-radius: 0px;">
-                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
-                            </svg>
-                            <strong>
-                                Nueva realidad <br>
-                            </strong>
-                                y convivencia dentro del campus
-                        </button>
+            <div class="">
+                <div class="row">
+                    <div class="col-md-4 text-left">
+                        <div style="height: 100%; overflow: hidden;" ><svg viewBox="0 0 200 150" preserveAspectRatio="none" style="height: 100%; width: 200%;"><path d="M41.48,0.50 C-36.96,66.61 139.10,90.28 3.68,194.89 L0.00,150.00 L0.00,0.00 Z" style="stroke: none; fill: #bedffe;"></path></svg></div>
                     </div>
-                    <br><br><br><br>
-                    <div id="nRealidad1" class="container py-5 escuela">
-                        <div class="row">
-                            <div class="col-md-8 text-center" >
-                                <img src="./img/graficos/s4/escuela.png" alt="escuela" width="50%" height="70%">
-                            </div>
-                            <div class="col-md-4 text-left">
-                                <button class="btn btn-lg" onclick="abrirEscuela()">
-                                    <svg width="3em" height="3em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                                    </svg>
-                                </button>
-                            </div>
+    
+                    <div class="col-md-8 py-5">
+    
+                        <!-- ESCUELA -->
+                        <div style="float: right;">
+                             <button class="btn btn-lg" style="background-color: #5aeef2; color: #183970; padding: 20px 25px; border-radius: 30px; border-top-right-radius: 0px; border-bottom-right-radius: 0px;">
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                                </svg>
+                                <strong>
+                                    Nueva realidad <br>
+                                </strong>
+                                    y convivencia dentro del campus
+                            </button>
                         </div>
-                    </div>
-                    <br><br>
-                    <div id="nRealidad2" style="display: none; background-color: #1262f9;" class="animate__animated animate__bounceInRight py-5">
-                        <div class="container">
+                        <br><br><br><br>
+                        <div id="nRealidad1" class="container py-5 escuela">
                             <div class="row">
-                                <div class="col-md-1">
-                                    <button onclick="cerrarEscuela()" class="btn btn-lg">
-                                        <svg width="1em" height="1em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                                <div class="col-md-8 text-center" >
+                                    <img src="./img/graficos/s4/escuela.png" alt="escuela" width="40%" height="65%">
+                                </div>
+                                <div class="col-md-4 text-left">
+                                    <button class="btn btn-lg" onclick="abrirEscuela()">
+                                        <svg width="3em" height="3em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                                         </svg>
                                     </button>
                                 </div>
-                                <div class="col-md-11 py-5" style="color: white;">
-                                    <li> Dirígete al salón de clases manteniendo la sana distancia.</li>
-                                    <li>El campus y las aulas tendrán capacidad reducida para asegurar el distanciamiento social</li>
-                                    <li>
-                                        Deberás abstenerte de realizar muestras de afecto que supongan
-                                        contacto físico, así como compartir materiales escolares o articulos
-                                        personales.
-                                    </li>
+                            </div>
+                        </div>
+                        <br><br>
+                        <div id="nRealidad2" style="display: none; background-color: #1262f9;" class="animate__animated animate__bounceInRight py-5">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-1">
+                                        <button onclick="cerrarEscuela()" class="btn btn-lg">
+                                            <svg width="1em" height="1em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div class="col-md-11 py-5" style="color: white;">
+                                        <li> Dirígete al salón de clases manteniendo la sana distancia.</li>
+                                        <li>El campus y las aulas tendrán capacidad reducida para asegurar el distanciamiento social</li>
+                                        <li>
+                                            Deberás abstenerte de realizar muestras de afecto que supongan
+                                            contacto físico, así como compartir materiales escolares o articulos
+                                            personales.
+                                        </li>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <!-- SILLA -->
-                    <div style="float: right;">
-                        <button class="btn btn-lg" style="background-color: #70f5a6; color: #183970; padding: 20px 25px; border-radius: 30px; border-top-right-radius: 0px; border-bottom-right-radius: 0px;">
-                           <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                               <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
-                           </svg>
-                               Medidas relacionadas <br>
-                            <strong>
-                                al desarrollo de clase
-                            </strong>
-                       </button>
-                    </div>
-                    <br><br><br><br>
-                    <div id="silla1" class="container py-5 cSilla">
-                        <div class="row">
-                            <div class="col-md-8 text-center" >
-                                <img src="./img/graficos/s4/silla.png" alt="escuela" width="40%" height="70%">
-                            </div>
-                            <div class="col-md-4 text-left">
-                                <button class="btn btn-lg" onclick="abrirSilla2()">
-                                    <svg width="3em" height="3em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                                    </svg>
-                                </button>
-                            </div>
+    
+                        <!-- SILLA -->
+                        <div style="float: right;">
+                            <button class="btn btn-lg" style="background-color: #70f5a6; color: #183970; padding: 20px 25px; border-radius: 30px; border-top-right-radius: 0px; border-bottom-right-radius: 0px;">
+                               <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                   <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                               </svg>
+                                   Medidas relacionadas <br>
+                                <strong>
+                                    al desarrollo de clase
+                                </strong>
+                           </button>
                         </div>
-                    </div>
-                    <br><br>
-                    <div id="silla2" style="display: none; background-color: #1262f9;" class="animate__animated animate__bounceInRight py-5">
-                        <div class="container">
+                        <br><br><br><br>
+                        <div id="silla1" class="container py-5 cSilla">
                             <div class="row">
-                                <div class="col-md-1">
-                                    <button onclick="cerrarSilla2()" class="btn btn-lg">
-                                        <svg width="1em" height="1em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                                <div class="col-md-8 text-center" >
+                                    <img src="./img/graficos/s4/silla.png" alt="escuela" width="40%" height="65%">
+                                </div>
+                                <div class="col-md-4 text-left">
+                                    <button class="btn btn-lg" onclick="abrirSilla2()">
+                                        <svg width="3em" height="3em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                                         </svg>
                                     </button>
                                 </div>
-                                <div class="col-md-11 py-5" style="color: white;">
-                                    <li> Dirígete al salón de clases manteniendo la sana distancia.</li>
-                                    <li>El campus y las aulas tendrán capacidad reducida para asegurar el distanciamiento social</li>
-                                    <li>
-                                        Deberás abstenerte de realizar muestras de afecto que supongan
-                                        contacto físico, así como compartir materiales escolares o articulos
-                                        personales.
-                                    </li>
+                            </div>
+                        </div>
+                        <br><br>
+                        <div id="silla2" style="display: none; background-color: #1262f9;" class="animate__animated animate__bounceInRight py-5">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-1">
+                                        <button onclick="cerrarSilla2()" class="btn btn-lg">
+                                            <svg width="1em" height="1em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div class="col-md-11 py-5" style="color: white;">
+                                        <li> Dirígete al salón de clases manteniendo la sana distancia.</li>
+                                        <li>El campus y las aulas tendrán capacidad reducida para asegurar el distanciamiento social</li>
+                                        <li>
+                                            Deberás abstenerte de realizar muestras de afecto que supongan
+                                            contacto físico, así como compartir materiales escolares o articulos
+                                            personales.
+                                        </li>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        
                     </div>
-                    
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Sección Información permanente -->
+    <section>
+        <div style="background-color: white;">
+            <div class="container py-5 text-center">
+                <button class="btn btn-lg" style="background-color: #8c68e6; color: white; padding: 10px 35px; border-radius: 30px;">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                    </svg>
+                    <strong>
+                        Información permanente <br>
+                    </strong>
+                        para tu salud y bienestar
+                </button>
+                
+                <p class="py-5" style="font-size: 18px;">
+                    <strong>
+                        Considerando que las acciones que asumas responsablemente aún fuera
+                        del campus impactan en tu salud y la de las personas a tu alrededor,
+                        deberás seguir estrcitamente las indicaciones que se enuncian
+                        a continuación:
+                    </strong>
+                </p>
+
+                <div class="row py-3">
+                    <div class="col-md-4">
+                        <input type="image" src="./img/graficos/s5/boton1.png" width="50%" height="70%" onclick="boton1()"/> 
+                    </div>
+                    <div class="col-md-4">
+                        <input type="image" src="./img/graficos/s5/boton2.png" width="50%" height="70%" onclick="boton2()"/> 
+                    </div>
+                    <div class="col-md-4">
+                        <input type="image" src="./img/graficos/s5/boton3.png" width="50%" height="70%" onclick="boton3()"/> 
+                    </div>
+                </div>
+
+                <div id="boton1" style="background-color: #8c68e6; display: none; border-radius: 20px;" class="animate__animated animate__bounceInUp">
+                    <div class="container py-3 text-center">
+                        <p style="color: white; font-size: 22px;">
+                            Las personas pertenecientes a grupos de riesgo
+                            (estudiantes, docentes y personal administrativo)
+                            deberán continuar con sus actividades de manera remota.
+                        </p>
+                    </div>
+                </div>
+                
+                <div id="boton2" style="background-color: #978fe5; display: none; border-radius: 20px;" class="animate__animated animate__bounceInUp">
+                    <div class="container py-3 text-center">
+                        <p style="color: white; font-size: 22px;">
+                            Las personas pertenecientes a grupos de riesgo
+                            (estudiantes, docentes y personal administrativo)
+                            deberán continuar con sus actividades de manera remota.
+                        </p>
+                    </div>
+                </div>
+    
+                <div id="boton3" style="background-color: #ad5af4; display: none; border-radius: 20px;" class="animate__animated animate__bounceInUp">
+                    <div class="container py-3 text-center">
+                        <p style="color: white; font-size: 22px;">
+                            Las personas pertenecientes a grupos de riesgo
+                            (estudiantes, docentes y personal administrativo)
+                            deberán continuar con sus actividades de manera remota.
+                        </p>
+                    </div>
+                </div>
+
+                <svg width="100%" height="100%" viewBox="0 0 250 70">
+                    <line x1="30" y1="45" x2="220" y2="45" style="stroke:#1c6af3;stroke-width:5; stroke-linecap: round"></line>
+                </svg>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Medidas de higiene -->
+    <section>
+        <div class="" style="background-color: white;">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-6">
+                        <img src="./img/graficos/s6/gel.png" alt="" width="90%" height="90%">
+                    </div>
+                    <div class="col-md-6">
+                        <button class="btn btn-lg" style="background-color: #75b0f6; color: white; padding: 10px 35px; border-radius: 30px;">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                            </svg>
+                            <strong>
+                                Medidas de higiene y <br>
+                            </strong>
+                                protocolo de servicios
+                        </button>
+                        <p class="py-3" style="font-size: 16px;">
+                            <strong>
+                                Considerando que las acciones que asumas responsablemente aún fuera
+                                del campus impactan en tu salud y la de las personas a tu alrededor,
+                                deberás seguir estrcitamente las indicaciones que se enuncian
+                                a continuación:
+                            </strong>
+                        </p>
+                        <div class="text-center">
+                            <button class="btn btn-lg" onclick="abrirMH()">
+                                <svg width="3em" height="3em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                </svg>
+                            </button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-3.10,58.70 C185.38,159.38 404.91,-147.53 501.41,102.13 L511.00,179.11 L-5.36,157.39 Z" style="stroke: none; fill: #c0ccfe;"></path></svg></div>
+        </div>
+
+        <!-- Carousel pantalla completa -->
+        <div>
+            <div id="mhpantalla" class="animate__animated animate__bounceInRight "> 
+                
+                <div style="color: white;" class="container py-5 "> 
+                    <br><br><br>
+                    <div class="py-5">
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <div class="text-center">
+                                    <img src="./img/graficos/s6/cafe.png" alt="" width="15%" height="15%">
+        
+                                    <h1 style="font-size: 500%;">
+                                        <strong>
+                                            Cafetería
+                                        </strong>
+                                    </h1>
+                                    <h5>
+                                        El uso correcto del cubrebocas,
+                                        (cubriendo nariz y boca) es obligatorio
+                                        durante toda la estancia en el campus.
+                                    </h5>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="text-center">
+                                    <img src="./img/graficos/s6/biblioteca.png" alt="" width="25%" height="25%">
+        
+                                    <h1 style="font-size: 500%;">
+                                        <strong>
+                                            Biblioteca 
+                                        </strong>
+                                    </h1>
+                                    <h5>
+                                        El uso correcto del cubrebocas,
+                                        (cubriendo nariz y boca) es obligatorio
+                                        durante toda la estancia en el campus.
+                                    </h5>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="text-center">
+                                    <img src="./img/graficos/s6/cancha.png" alt="" width="25%" height="25%">
+        
+                                    <h1 style="font-size: 500%;">
+                                        <strong>
+                                            Instalaciones deportivas
+                                        </strong>
+                                    </h1>
+                                    <h5>
+                                        El uso correcto del cubrebocas,
+                                        (cubriendo nariz y boca) es obligatorio
+                                        durante toda la estancia en el campus.
+                                    </h5>
+
+                                    <button onclick="cerrarMH()" class="btn btn-lg">
+                                        <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-x-circle" style="color: white;" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                            <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                          </div>
+                    </div>
+                </div>
+
+            </div>
+
+           
+        </div>
+    </section>
 
 
     <!-- --------------------------------SCRIPTS--------------------------- -->
@@ -992,6 +1190,57 @@
                     div2 = document.getElementById('silla1');
                     div2.style.display = 'block'; 
 
+            }
+        </script>
+
+    <!-- SCRIPTS INFORMACIÓN PERMANENTE -->
+        <script>
+
+            function boton1(){
+            
+                divboton1 = document.getElementById('boton1');
+                divboton1.style.display = 'block';
+                divboton2 = document.getElementById('boton2');
+                divboton2.style.display = 'none';
+                divboton3 = document.getElementById('boton3');
+                divboton3.style.display = 'none';
+            }
+
+            function boton2(){
+            
+                divboton1 = document.getElementById('boton1');
+                divboton1.style.display = 'none';
+                divboton2 = document.getElementById('boton2');
+                divboton2.style.display = 'block';
+                divboton3 = document.getElementById('boton3');
+                divboton3.style.display = 'none';
+            }
+
+            function boton3(){
+            
+                divboton1 = document.getElementById('boton1');
+                divboton1.style.display = 'none';
+                divboton2 = document.getElementById('boton2');
+                divboton2.style.display = 'none';
+                divboton3 = document.getElementById('boton3');
+                divboton3.style.display = 'block';
+            }
+
+        </script>
+
+    <!-- SCRIPTS MEDIDAS DE HIGIENE -->
+
+        <script>
+            function abrirMH(){
+            
+                divmh = document.getElementById('mhpantalla');
+                divmh.style.display = 'block';
+            }
+
+            function cerrarMH(){
+
+                divmh = document.getElementById('mhpantalla');
+                divmh.style.display = 'none';
             }
         </script>
 
