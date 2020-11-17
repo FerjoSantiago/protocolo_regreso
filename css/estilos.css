@@ -27,7 +27,7 @@ body{
 }
 
 .caja{
-    display: inline-block; 
+    
     position: relative;
 }
 
@@ -139,4 +139,16 @@ body{
     left: 0;
     background-color: #75b0f6; 
     display: none;
+}
+
+
+@media screen and (max-width: 700px){
+
+    .img-enfermera,
+    .img-linea-vertical,
+    .ola-responsive-3,
+    .ola-responsive-2{
+        display: none;
+    }
+
 }

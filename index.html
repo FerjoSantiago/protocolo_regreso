@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Protocolo de regreso a clases</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -10,20 +10,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     
 </head>
-<body style="background-color: #1262f9;">
+<body style="background-color: white;">
     
     <!-- Sección HEADER-->
     <header >
         <div class="caja">
-            <img src="./img/header1.jpg" alt="ImagenHeader" height="480" width="100%" max-width="400px">
-            <div class="texto1"> <strong>Protocolo</strong> </div>
-            <div class="texto2">de regreso responsable</div>
+            <img src="./img/header1.png" alt="ImagenHeader" height="100%" width="100%" >
         </div>
     </header>
 
     <!-- Sección Inicio 1 -->
     <section>
-        <div>
+        <div style="background-color: #1262f9 !important;">
             <div id="div1" class="example" style="background-color: #1262f9;">
                 
                 <div class="img1">
@@ -36,7 +34,7 @@
                     </div>                
                 </div>
     
-                <div class="" style="position: absolute; margin-left: 83%; margin-top: 7%;">
+                <div class="img-enfermera" style="position: absolute; margin-left: 85%; margin-top: 10%;">
                     <img src=".\img\graficos\s1\ie.png" alt="" width="" height="300px">
                 </div>
     
@@ -45,13 +43,14 @@
                     <div class="texto3">
                         <div class="col-md-12 text-center">
                             <br><br>
-                            <p style="color: white;">
+                            <p style="color: white; font-size: 22px;">
                                 La humanidad se encuentra ante un reto por la creciente pandemia
                                 de COVID-19 que afecta a comunidades y economía indiscriminante.
-                                Esta contingencia, que tomó por sorpresa a la humanidad,
+                                
                             </p>
                             <br>
-                            <p style="color: white;">
+                            <p style="color: white; font-size: 22px;">
+                                Esta contingencia, que tomó por sorpresa a la humanidad,
                                 inició en diciembre de 2019 en la ciudad de Wuhan, China y alcanzó a México
                                 en febrero de 2020 causando en nuestro país cientos de miles de enfermos,
                                 así como decenas de miles de lamentables pérdidas humanas. 
@@ -97,7 +96,7 @@
             
                 </p>
                 <button onclick="cerrar()" class="btn btn-lg">
-                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-compact-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-chevron-compact-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
                       </svg>
                 </button>
@@ -119,19 +118,19 @@
         <div style="background-color: #1262f9;">
             <div class="container-fluid py-5 text-center">
                 <div class="row">
-
-                    <div class="col-md-4"> 
-                        <button onclick="abrir()" type="submit" class="btn btn-lg " style="background-color: #85d6f4; color: white; padding: 20px 25px; border-radius: 30px;">
+                    
+                    <div class="col-md-4">
+                        <br><br><br><br><br> 
+                        <button onclick="abrir()" type="submit" class="btn btn-lg btn-block" style="background-color: #85d6f4; color: white; padding: 20px 25px; border-radius: 30px;">
                             <strong>
                                 Definición para el regreso responsable
                             </strong>
                         </button> 
                     </div>
 
-                    <div class="col-md-4">
-                        <br><br><br><br><br>
-                        
-                        <button onclick="abrir()" type="submit" class="btn btn-lg " style="background-color: #4eb2fe; color: white; padding: 20px 25px; border-radius: 30px;">
+                    <div class="col-md-4"> 
+                        <br><br><br><br><br> 
+                        <button onclick="abrir()" type="submit" class="btn btn-lg btn-block" style="background-color: #4eb2fe; color: white; padding: 20px 25px; border-radius: 30px;">
                             <strong>
                                 Implementación gradual
                             </strong>
@@ -139,7 +138,8 @@
                     </div>
 
                     <div class="col-md-4">
-                        <button onclick="abrir()" type="submit" class="btn btn-lg " style="background-color: #01c5fb; color: white; padding: 20px 25px; border-radius: 30px;">
+                        <br><br><br><br><br>
+                        <button onclick="abrir()" type="submit" class="btn btn-lg btn-block" style="background-color: #01c5fb; color: white; padding: 20px 25px; border-radius: 30px;">
                             <strong>
                                 Salud y bienestar de la comunidad
                             </strong>
@@ -148,6 +148,7 @@
                     
                 </div>
             </div>
+            <br><br><br><br><br><br>
         </div>
     </section>
 
@@ -160,8 +161,8 @@
                 <div id="myDiv1" style="background-color: white; display: none;" class="animate__animated animate__bounceInUp "> 
 
                     <div style="background-color: white; color: #226bfc;" class="container text-center py-5 ">
-                        <br><br><br><br><br>
-                        <h2 style="font-size: 250%;">
+                        <br><br><br>
+                        <h2 style="font-size: 200%; text-align: justify;">
                            El regreso a clases podrá llevarse a cabo de una manera segura y responsable,
                            gracias a la adopción de nuestra comunidad de una nueva cultura, que implica
                            el apego estrcicto a las normas y protocolos establecidos para este fin, además
@@ -170,7 +171,7 @@
                         </h2>
    
                         <button onclick="cerrar1()" class="btn btn-lg">
-                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-compact-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="2em" height="2em" viewBox="0 0 16 16" style="color: #b6caf8;" class="bi bi-chevron-compact-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
                             </svg>
                        </button>
@@ -186,8 +187,8 @@
                 <div id="myDiv1" style="background-color: white; display: none;" class="animate__animated animate__bounceInUp "> 
 
                     <div style="background-color: white; color: #226bfc;" class="container text-center py-5 ">
-                        <br><br><br><br><br>
-                        <h2 style="font-size: 250%;">
+                        <br><br><br>
+                        <h2 style="font-size: 200%; text-align: justify;">
                            El regreso a clases podrá llevarse a cabo de una manera segura y responsable,
                            gracias a la adopción de nuestra comunidad de una nueva cultura, que implica
                            el apego estrcicto a las normas y protocolos establecidos para este fin, además
@@ -196,8 +197,8 @@
                         </h2>
    
                         <button onclick="cerrar1()" class="btn btn-lg">
-                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-compact-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                               <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
+                            <svg width="2em" height="2em" viewBox="0 0 16 16" style="color: #b6caf8;" class="bi bi-chevron-compact-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
                             </svg>
                        </button>
 
@@ -212,8 +213,8 @@
                 <div id="myDiv1" style="background-color: white; display: none;" class="animate__animated animate__bounceInUp "> 
 
                     <div style="background-color: white; color: #226bfc;" class="container text-center py-5 ">
-                        <br><br><br><br><br>
-                        <h2 style="font-size: 250%;">
+                        <br><br><br>
+                        <h2 style="font-size: 200%; text-align: justify;">
                            El regreso a clases podrá llevarse a cabo de una manera segura y responsable,
                            gracias a la adopción de nuestra comunidad de una nueva cultura, que implica
                            el apego estrcicto a las normas y protocolos establecidos para este fin, además
@@ -222,8 +223,8 @@
                         </h2>
    
                         <button onclick="cerrar1()" class="btn btn-lg">
-                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-compact-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                               <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
+                            <svg width="2em" height="2em" viewBox="0 0 16 16" style="color: #b6caf8;" class="bi bi-chevron-compact-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
                             </svg>
                        </button>
 
@@ -236,25 +237,26 @@
 
     <!-- Sección Regreso a clases | Dentro del campus -->
     <section>
-        <div style="background-color: white; ">
-            <div class="container-fluid">
+        <div style="background-color: white;" style="position: relative;">
+            <div class="">
                 
                 <div class="row">
                     
-                    <div class="col-md-3">
-                        
+                    <div class="ola-responsive-2 col-md-3 col align-self-end">
+                        <div style="height: 80%; overflow: hidden;" ><svg viewBox="0 0 120 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-11.00,1.48 C104.68,26.14 -21.72,117.92 70.82,150.48 L0.00,150.00 L-9.31,26.14 Z" style="stroke: none; fill: #bedffe;"></path></svg></div>
                     </div>
     
                     <div class="col-md-6">
                         <div class="py-5 text-center">
                             
-                            <button onclick="carrusel()" class="btn btn-lg" style="background-color: #c0ccfe; color: white; padding: 20px 25px; border-radius: 30px;">
-                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <button onclick="carrusel()" class="btn btn-lg" style="background-color: #7d9afe; color: white; padding: 8px 60px; border-radius: 50px;">
+                                <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
                                 </svg>
-                                <strong>
-                                    Antes de regreso a clases
+                                <strong style="font-size: 25px;">
+                                    Antes de<p style="font-style: italic;">regreso a clases</p>
                                 </strong>
+                                    
                             </button>
                             
                             <br><br><br>
@@ -286,7 +288,7 @@
                                     <div class="carousel-inner">
 
                                       <div class="carousel-item active">
-                                        <img class="w-10" src="./img/graficos/s2/circulo.png" alt="uno" width="40%">
+                                        <img class="w-10" src="./img/graficos/s2/c1.png" alt="uno" width="40%">
                                         
                                         <p style="font-size: 14px;">
                                             1.Considerando que las acciones que asumas responsablemente aún fuera
@@ -297,7 +299,7 @@
                                       </div>
 
                                       <div class="carousel-item">
-                                        <img class="w-10" src="./img/graficos/s2/circulo.png" alt="dos" width="40%">
+                                        <img class="w-10" src="./img/graficos/s2/c2.png" alt="dos" width="40%">
                                         <br>
                                         <p style="font-size: 14px;">
                                             2.Considerando que las acciones que asumas responsablemente aún fuera
@@ -308,7 +310,7 @@
                                       </div>
 
                                       <div class="carousel-item">
-                                        <img class="w-10" src="./img/graficos/s2/circulo.png" alt="tres" width="40%">
+                                        <img class="w-10" src="./img/graficos/s2/c3.png" alt="tres" width="40%">
                                         <br>
                                         <p style="font-size: 14px;">
                                             3.Considerando que las acciones que asumas responsablemente aún fuera
@@ -319,7 +321,7 @@
                                       </div>
 
                                       <div class="carousel-item">
-                                        <img class="w-10" src="./img/graficos/s2/circulo.png" alt="tres" width="40%">
+                                        <img class="w-10" src="./img/graficos/s2/c4.png" alt="tres" width="40%">
                                         <br>
                                         <p style="font-size: 14px;">
                                             4.Considerando que las acciones que asumas responsablemente aún fuera
@@ -330,7 +332,7 @@
                                       </div>
 
                                       <div class="carousel-item">
-                                        <img class="w-10" src="./img/graficos/s2/circulo.png" alt="tres" width="40%">
+                                        <img class="w-10" src="./img/graficos/s2/c5.png" alt="tres" width="40%">
                                         <br>
                                         <p style="font-size: 14px;">
                                             5.Considerando que las acciones que asumas responsablemente aún fuera
@@ -341,7 +343,7 @@
                                       </div>
 
                                       <div class="carousel-item">
-                                        <img class="w-10" src="./img/graficos/s2/circulo.png" alt="tres" width="40%">
+                                        <img class="w-10" src="./img/graficos/s2/c6.png" alt="tres" width="40%">
                                         <br>
                                         <p style="font-size: 14px;">
                                             6.Considerando que las acciones que asumas responsablemente aún fuera
@@ -362,11 +364,8 @@
                             </svg>
                             
                             <!-- -------------------------------------------------------------------------- -->
-                            <button class="btn btn-lg" style="background-color: #3fb7f4; color: white; padding: 20px 25px; border-radius: 30px;">
-                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
-                                </svg>
-                                <strong>
+                            <button class="btn btn-lg btn-block" style="background-color: #3fb7f4; color: white; padding: 15px 25px; border-radius: 40px;">
+                                <strong style="font-size: 30px;">
                                     Dentro del campus
                                 </strong>
                             </button>
@@ -385,7 +384,7 @@
                                 <!-- CUBREBOCA -->
                                 <div class="col-md-3">
                                     <br><br>
-                                    <input type="image" src="./img/graficos/s3/cubreboca.png" width="50%" height="50%" onclick="abrirCubreboca()"/> 
+                                    <input type="image" src="./img/graficos/s3/cubreboca.png" width="40%" height="40%" onclick="abrirCubreboca()"/> 
                                 </div>
 
                                 <div>
@@ -408,14 +407,14 @@
                                                         durante toda la estancia en el campus.
                                                     </h4>
                                                     <button onclick="cerrarCubreboca()" class="btn btn-lg">
-                                                        <svg width="1em" height="1em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                        <svg width="2em" height="2em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                                             <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
                                                         </svg>
                                                     </button>
                                                 </div>
 
                                                 <div class="col-md-6">
-                                                    <img src="./img/graficos/s3/cubreboca1.png" alt="" width="100%" height="100%">
+                                                    <img src="./img/graficos/s3/cubreboca1.png" alt="" width="90%" height="90%">
                                                 </div>
                                             </div>
 
@@ -425,7 +424,7 @@
                                 </div>
 
                                 <!-- Linea vertical -->
-                                <div class="col-md-1">
+                                <div class="img-linea-vertical col-md-1">
                                     <div style="border-left:2px dashed #3fb7f4; height:200px"></div>
                                 </div>
                                 <!--  -->
@@ -433,7 +432,7 @@
                                 <!-- SANA DISTANCIA -->
                                 <div class="col-md-3">
                                     <br><br>
-                                    <input type="image" src="./img/graficos/s3/sanadistancia.png" width="50%" height="50%" onclick="abrirSD()"/> 
+                                    <input type="image" src="./img/graficos/s3/sanadistancia.png" width="40%" height="40%" onclick="abrirSD()"/> 
                                 </div>
 
                                 <div>
@@ -456,14 +455,14 @@
                                                         durante toda la estancia en el campus.
                                                     </h4>
                                                     <button onclick="cerrarSD()" class="btn btn-lg">
-                                                        <svg width="1em" height="1em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                        <svg width="2em" height="2em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                                             <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
                                                         </svg>
                                                     </button>
                                                 </div>
 
                                                 <div class="col-md-6">
-                                                    <img src="./img/graficos/s3/sanadistancia1.png" alt="" width="100%" height="100%">
+                                                    <img src="./img/graficos/s3/sanadistancia1.png" alt="" width="90%" height="90%">
                                                 </div>
                                             </div>
 
@@ -473,7 +472,7 @@
                                 </div>
 
                                 <!-- Linea vertical -->
-                                <div class="col-md-1">
+                                <div class="img-linea-vertical col-md-1">
                                     <div style="border-left:2px dashed #3fb7f4; height:200px"></div>
                                 </div>
                                 <!--  -->
@@ -481,8 +480,9 @@
                                 <!-- CELULAR -->
                                 <div class="col-md-3">
                                     <br><br>
-                                    <input type="image" src="./img/graficos/s3/celular.png" width="50%" height="50%" onclick="abrirCel()"/> 
+                                    <input type="image" src="./img/graficos/s3/celular.png" width="30%" height="40%" onclick="abrirCel()"/> 
                                 </div>
+
                                 <div>
                                     <div id="celular" class="animate__animated animate__bounceInRight "> 
                                        
@@ -503,14 +503,14 @@
                                                         durante toda la estancia en el campus.
                                                     </h4>
                                                     <button onclick="cerrarCel()" class="btn btn-lg">
-                                                        <svg width="1em" height="1em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                        <svg width="2em" height="2em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                                             <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
                                                         </svg>
                                                     </button>
                                                 </div>
 
                                                 <div class="col-md-6">
-                                                    <img src="./img/graficos/s3/celular1.png" alt="" width="100%" height="100%">
+                                                    <img src="./img/graficos/s3/celular1.png" alt="" width="90%" height="90%">
                                                 </div>
                                             </div>
                                         </div>
@@ -519,12 +519,12 @@
 
 
                                 <!-- Linea vertical -->
-                                <div class="col-md-1">
+                                <div class="img-linea-vertical col-md-1">
                                     <div style="border-left:2px dashed #3fb7f4; height:200px"></div>
                                 </div>
                                 <!--  -->
 
-                                <div class="col-md-12 text-center">
+                                <div class="img-linea-vertical col-md-12 text-center">
                                     <hr style="border: 1px dashed #3fb7f4;" />
                                 </div>
                                 
@@ -533,8 +533,9 @@
                                 <!-- TEMPERATURA -->
                                 <div class="col-md-3">
                                     <br>
-                                    <input type="image" src="./img/graficos/s3/temperatura.png" width="50%" height="50%" onclick="abrirTemp()"/> 
+                                    <input type="image" src="./img/graficos/s3/temperatura.png" width="40%" height="40%" onclick="abrirTemp()"/> 
                                 </div>
+
                                 <div>
                                     <div id="temperatura" class="animate__animated animate__bounceInRight "> 
                                        
@@ -555,14 +556,14 @@
                                                         durante toda la estancia en el campus.
                                                     </h4>
                                                     <button onclick="cerrarTemp()" class="btn btn-lg">
-                                                        <svg width="1em" height="1em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                        <svg width="2em" height="2em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                                             <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
                                                         </svg>
                                                     </button>
                                                 </div>
 
                                                 <div class="col-md-6">
-                                                    <img src="./img/graficos/s3/temperatura1.png" alt="" width="100%" height="100%">
+                                                    <img src="./img/graficos/s3/temperatura1.png" alt="" width="90%" height="90%">
                                                 </div>
                                             </div>
                                         </div>
@@ -570,7 +571,7 @@
                                 </div>
 
                                 <!-- Linea vertical -->
-                                <div class="col-md-1">
+                                <div class="img-linea-vertical col-md-1">
                                     <div style="border-left:2px dashed #3fb7f4; height:200px"></div>
                                 </div>
                                 <!--  -->
@@ -578,8 +579,9 @@
                                 <!-- LAVARSE LAS MANOS -->
                                 <div class="col-md-3">
                                     <br>
-                                    <input type="image" src="./img/graficos/s3/lavarmanos.png" width="50%" height="50%" onclick="abrirlavar()"/> 
+                                    <input type="image" src="./img/graficos/s3/lavarmanos.png" width="40%" height="40%" onclick="abrirlavar()"/> 
                                 </div>
+
                                 <div>
                                     <div id="lavarmanos" class="animate__animated animate__bounceInRight "> 
                                        
@@ -600,14 +602,14 @@
                                                         durante toda la estancia en el campus.
                                                     </h4>
                                                     <button onclick="cerrarlavar()" class="btn btn-lg">
-                                                        <svg width="1em" height="1em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                        <svg width="2em" height="2em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                                             <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
                                                         </svg>
                                                     </button>
                                                 </div>
 
                                                 <div class="col-md-6">
-                                                    <img src="./img/graficos/s3/lavarmanos1.png" alt="" width="100%" height="100%">
+                                                    <img src="./img/graficos/s3/lavarmanos1.png" alt="" width="90%" height="90%">
                                                 </div>
                                             </div>
                                         </div>
@@ -615,7 +617,7 @@
                                 </div>
 
                                 <!-- Linea vertical -->
-                                <div class="col-md-1">
+                                <div class="img-linea-vertical col-md-1">
                                     <div style="border-left:2px dashed #3fb7f4; height:200px"></div>
                                 </div>
                                 <!--  -->
@@ -623,8 +625,9 @@
                                <!-- TOMAR ASIENTO | SILLA -->
                                 <div class="col-md-3">
                                     <br>
-                                    <input type="image" src="./img/graficos/s3/silla.png" width="50%" height="50%" onclick="abrirsilla()"/> 
+                                    <input type="image" src="./img/graficos/s3/silla.png" width="40%" height="40%" onclick="abrirsilla()"/> 
                                 </div>
+
                                 <div>
                                     <div id="silla" class="animate__animated animate__bounceInRight "> 
                                        
@@ -645,14 +648,14 @@
                                                         durante toda la estancia en el campus.
                                                     </h4>
                                                     <button onclick="cerrarsilla()" class="btn btn-lg">
-                                                        <svg width="1em" height="1em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                        <svg width="2em" height="2em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                                             <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
                                                         </svg>
                                                     </button>
                                                 </div>
 
                                                 <div class="col-md-6">
-                                                    <img src="./img/graficos/s3/silla1.png" alt="" width="100%" height="100%">
+                                                    <img src="./img/graficos/s3/silla1.png" alt="" width="90%" height="90%">
                                                 </div>
                                             </div>
                                         </div>
@@ -660,7 +663,7 @@
                                 </div>
                                 
                                 <!-- Linea vertical -->
-                                <div class="col-md-1">
+                                <div class="img-linea-vertical col-md-1">
                                     <div style="border-left:2px dashed #3fb7f4; height:200px"></div>
                                 </div>
                                 <!--  -->
@@ -670,8 +673,9 @@
                         </div>
                     </div>
     
-                    <div class="col-md-3" style="width:auto; height:auto;">
-                        
+                    <div class="ola-responsive-2 col-md-3" >
+                        <!-- <div style="height: 80%; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M446.10,-3.45 C535.26,82.39 402.09,99.17 505.36,147.53 L520.03,127.78 L500.00,0.00 Z" style="stroke: none; fill: #08f;"></path></svg></div> -->
+                        <div style="height: 80%; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M312.36,-2.45 C463.03,35.03 201.18,144.56 491.82,139.63 L535.83,138.64 L500.00,0.00 Z" style="stroke: none; fill: #c0ccfe;"></path></svg></div>
                     </div>
 
                 </div>
@@ -686,33 +690,31 @@
         <div style="background-color: #1262f9;">
             <div class="">
                 <div class="row">
-                    <div class="col-md-4 text-left">
-                        <div style="height: 100%; overflow: hidden;" ><svg viewBox="0 0 200 150" preserveAspectRatio="none" style="height: 100%; width: 200%;"><path d="M41.48,0.50 C-36.96,66.61 139.10,90.28 3.68,194.89 L0.00,150.00 L0.00,0.00 Z" style="stroke: none; fill: #bedffe;"></path></svg></div>
+                    <div class="ola-responsive-3 col-md-4 text-left">
+                        <!-- <div style="height: 100%; overflow: hidden;" ><svg viewBox="0 0 200 150" preserveAspectRatio="none" style="height: 100%; width: 200%;"><path d="M41.48,0.50 C-36.96,66.61 139.10,90.28 3.68,194.89 L0.00,150.00 L0.00,0.00 Z" style="stroke: none; fill: #bedffe;"></path></svg></div> -->
+                        <div style="height: 100%; overflow: hidden;" ><svg viewBox="0 0 290 150" preserveAspectRatio="none" style="height: 100%; width: 200%;"><path d="M63.48,-2.45 C-25.11,90.28 151.52,65.63 63.48,158.38 L0.00,150.00 L0.00,0.00 Z" style="stroke: none; fill: #bedffe;"></path></svg></div>
                     </div>
     
                     <div class="col-md-8 py-5">
     
                         <!-- ESCUELA -->
                         <div style="float: right;">
-                             <button class="btn btn-lg" style="background-color: #5aeef2; color: #183970; padding: 20px 25px; border-radius: 30px; border-top-right-radius: 0px; border-bottom-right-radius: 0px;">
-                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
-                                </svg>
-                                <strong>
-                                    Nueva realidad <br>
+                             <button class="btn btn-lg" style="background-color: #5aeef2; color: #183970; padding: 10px 25px; border-radius: 40px; border-top-right-radius: 0px; border-bottom-right-radius: 0px;">
+                                <strong style="font-size: 25px;">
+                                    Nueva realidad <br> <p style="font-style: italic;">y convivencia dentro del campus</p>
                                 </strong>
-                                    y convivencia dentro del campus
+                                    
                             </button>
                         </div>
                         <br><br><br><br>
                         <div id="nRealidad1" class="container py-5 escuela">
                             <div class="row">
                                 <div class="col-md-8 text-center" >
-                                    <img src="./img/graficos/s4/escuela.png" alt="escuela" width="40%" height="65%">
+                                    <img src="./img/graficos/s4/escuela.png" alt="escuela" width="30%" height="75%">
                                 </div>
                                 <div class="col-md-4 text-left">
                                     <button class="btn btn-lg" onclick="abrirEscuela()">
-                                        <svg width="3em" height="3em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <svg width="2em" height="2em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                                         </svg>
                                     </button>
@@ -725,12 +727,12 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <button onclick="cerrarEscuela()" class="btn btn-lg">
-                                            <svg width="1em" height="1em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <svg width="2em" height="2em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                                 <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
                                             </svg>
                                         </button>
                                     </div>
-                                    <div class="col-md-11 py-5" style="color: white;">
+                                    <div class="col-md-11 py-5" style="color: white; font-size: 20px;">
                                         <li> Dirígete al salón de clases manteniendo la sana distancia.</li>
                                         <li>El campus y las aulas tendrán capacidad reducida para asegurar el distanciamiento social</li>
                                         <li>
@@ -738,6 +740,23 @@
                                             contacto físico, así como compartir materiales escolares o articulos
                                             personales.
                                         </li>
+                                        <li>
+                                            Lávate las manos frecuentemente con agua y jabón
+                                            líquido siguiendo la técnica recomendada por la OMS.
+                                        </li>
+                                        <li>
+                                            Mantén limpia y desinfecta el área de estudio que utilices,
+                                            así como tus artículos personales.
+                                        </li>
+                                        <li>
+                                            Respeta en todo momento los señalamientos que encontrarás
+                                            relativos al uso de cada espacio (aulas, cafetería, baños, etc...).
+                                        </li>
+                                        <li>
+                                            Una vez concluidas tus clases deberás dirigirte inmediatamente a la
+                                            salida, absteniéndote de detenerte a socializar en los pasillos o aulas.
+                                        </li>
+                                        <li>Los artículos olvidados en el campus serán desechados.</li>
                                     </div>
                                 </div>
                             </div>
@@ -745,13 +764,9 @@
     
                         <!-- SILLA -->
                         <div style="float: right;">
-                            <button class="btn btn-lg" style="background-color: #70f5a6; color: #183970; padding: 20px 25px; border-radius: 30px; border-top-right-radius: 0px; border-bottom-right-radius: 0px;">
-                               <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                   <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
-                               </svg>
-                                   Medidas relacionadas <br>
-                                <strong>
-                                    al desarrollo de clase
+                            <button class="btn btn-lg" style="background-color: #70f5a6; color: #183970; padding: 10px 45px; border-radius: 40px; border-top-right-radius: 0px; border-bottom-right-radius: 0px;">
+                                <strong style="font-size: 25px;">
+                                    Medidas relacionadas <br> <p style="font-style: italic;">al desarrollo de clase</p>
                                 </strong>
                            </button>
                         </div>
@@ -759,11 +774,11 @@
                         <div id="silla1" class="container py-5 cSilla">
                             <div class="row">
                                 <div class="col-md-8 text-center" >
-                                    <img src="./img/graficos/s4/silla.png" alt="escuela" width="40%" height="65%">
+                                    <img src="./img/graficos/s4/silla.png" alt="escuela" width="25%" height="65%">
                                 </div>
                                 <div class="col-md-4 text-left">
                                     <button class="btn btn-lg" onclick="abrirSilla2()">
-                                        <svg width="3em" height="3em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <svg width="2em" height="2em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                                         </svg>
                                     </button>
@@ -776,12 +791,12 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <button onclick="cerrarSilla2()" class="btn btn-lg">
-                                            <svg width="1em" height="1em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <svg width="2em" height="2em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                                 <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
                                             </svg>
                                         </button>
                                     </div>
-                                    <div class="col-md-11 py-5" style="color: white;">
+                                    <div class="col-md-11 py-5" style="color: white; font-size: 20px;">
                                         <li> Dirígete al salón de clases manteniendo la sana distancia.</li>
                                         <li>El campus y las aulas tendrán capacidad reducida para asegurar el distanciamiento social</li>
                                         <li>
@@ -789,6 +804,23 @@
                                             contacto físico, así como compartir materiales escolares o articulos
                                             personales.
                                         </li>
+                                        <li>
+                                            Lávate las manos frecuentemente con agua y jabón
+                                            líquido siguiendo la técnica recomendada por la OMS.
+                                        </li>
+                                        <li>
+                                            Mantén limpia y desinfecta el área de estudio que utilices,
+                                            así como tus artículos personales.
+                                        </li>
+                                        <li>
+                                            Respeta en todo momento los señalamientos que encontrarás
+                                            relativos al uso de cada espacio (aulas, cafetería, baños, etc...).
+                                        </li>
+                                        <li>
+                                            Una vez concluidas tus clases deberás dirigirte inmediatamente a la
+                                            salida, absteniéndote de detenerte a socializar en los pasillos o aulas.
+                                        </li>
+                                        <li>Los artículos olvidados en el campus serán desechados.</li>
                                     </div>
                                 </div>
                             </div>
@@ -804,14 +836,11 @@
     <section>
         <div style="background-color: white;">
             <div class="container py-5 text-center">
-                <button class="btn btn-lg" style="background-color: #8c68e6; color: white; padding: 10px 35px; border-radius: 30px;">
-                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
-                    </svg>
-                    <strong>
+                <button class="btn btn-lg" style="background-color: #8c68e6; color: white; padding: 8px 35px; border-radius: 40px;">
+                    <strong style="font-size: 25px;">
                         Información permanente <br>
                     </strong>
-                        para tu salud y bienestar
+                        <p style="font-style: italic; font-size: 22px;">para tu salud y bienestar</p>
                 </button>
                 
                 <p class="py-5" style="font-size: 18px;">
@@ -882,14 +911,11 @@
                         <img src="./img/graficos/s6/gel.png" alt="" width="90%" height="90%">
                     </div>
                     <div class="col-md-6">
-                        <button class="btn btn-lg" style="background-color: #75b0f6; color: white; padding: 10px 35px; border-radius: 30px;">
-                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
-                            </svg>
-                            <strong>
-                                Medidas de higiene y <br>
+                        <button class="btn btn-lg btn-block" style="background-color: #75b0f6; color: white; padding: 8px 35px; border-radius: 40px;">
+                            <strong style="font-size: 25px;">
+                                Medidas de higiene <br>
                             </strong>
-                                protocolo de servicios
+                                <p style="font-style: italic; font-size: 22px;"> y protocolo de servicio</p>
                         </button>
                         <p class="py-3" style="font-size: 16px;">
                             <strong>
@@ -901,7 +927,7 @@
                         </p>
                         <div class="text-center">
                             <button class="btn btn-lg" onclick="abrirMH()">
-                                <svg width="3em" height="3em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <svg width="2em" height="2em" viewBox="0 0 16 16" style="color: #bedffe;" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                                 </svg>
                             </button>
@@ -911,7 +937,19 @@
                 </div>
             </div>
             <br><br>
-            <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-3.10,58.70 C185.38,159.38 404.91,-147.53 501.41,102.13 L511.00,179.11 L-5.36,157.39 Z" style="stroke: none; fill: #c0ccfe;"></path></svg></div>
+            <div style="height: 150px; overflow: hidden;" >
+                <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                    <path d="M-3.10,58.70 C185.38,159.38 404.91,-147.53 501.41,102.13 L511.00,179.11 L-5.36,157.39 Z" style="stroke: none; fill: #c0ccfe;"></path>
+                    <!-- <text x="320" y="70" fill="white" stroke="white"  style="font-family:sans-serif; font-size:15px; ">C o n t a c t o</text>
+                    <a href="https://www.facebook.com/iuv.universidad" > 
+                        <image xlink:href="./img/f2.svg" x=340 y=100 width=20 height=20 />
+                    </a>
+                    <a href="https://iuv.edu.mx/" > 
+                        <image xlink:href="./img/red.svg" x=370 y=100 width=20 height=20 />
+                    </a> -->
+                </svg>
+            </div>
+
         </div>
 
         <!-- Carousel pantalla completa -->
@@ -927,7 +965,7 @@
                                 <div class="text-center">
                                     <img src="./img/graficos/s6/cafe.png" alt="" width="15%" height="15%">
         
-                                    <h1 style="font-size: 500%;">
+                                    <h1 style="font-size: 400%;">
                                         <strong>
                                             Cafetería
                                         </strong>
@@ -943,7 +981,7 @@
                                 <div class="text-center">
                                     <img src="./img/graficos/s6/biblioteca.png" alt="" width="25%" height="25%">
         
-                                    <h1 style="font-size: 500%;">
+                                    <h1 style="font-size: 400%;">
                                         <strong>
                                             Biblioteca 
                                         </strong>
@@ -959,7 +997,7 @@
                                 <div class="text-center">
                                     <img src="./img/graficos/s6/cancha.png" alt="" width="25%" height="25%">
         
-                                    <h1 style="font-size: 500%;">
+                                    <h1 style="font-size: 400%;">
                                         <strong>
                                             Instalaciones deportivas
                                         </strong>
@@ -971,7 +1009,7 @@
                                     </h5>
 
                                     <button onclick="cerrarMH()" class="btn btn-lg">
-                                        <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-x-circle" style="color: white;" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x-circle" style="color: white;" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
                                             <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
                                         </svg>
@@ -997,12 +1035,13 @@
         </div>
     </section>
 
-
     <!-- --------------------------------SCRIPTS--------------------------- -->
     <!-- SCRIPTS INICIO -->
         <script>
             
             function mostrar() {
+
+                document.body.style.backgroundColor='#1262f9';
 
                 div1 = document.getElementById('div1');
                 div1.style.display = 'none';
@@ -1013,6 +1052,8 @@
             }
 
             function cerrar() {
+
+                document.body.style.backgroundColor='#fff';
 
                 div1 = document.getElementById('div2');
                 div1.style.display = 'none';
