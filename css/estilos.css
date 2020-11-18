@@ -11,7 +11,7 @@ html{
 
 body{
     font-family: 'Raleway', sans-serif;
-
+    overflow-x: hidden;
 }
 
 .hero{
@@ -66,7 +66,9 @@ body{
     color: #fff;
 }
 
-#myDiv1{
+#myDiv1,
+#myDiv2,
+#myDiv3{
 
     z-index: 9999; 
     width: 100%; 
@@ -74,8 +76,11 @@ body{
     position: fixed; 
     top: 0; 
     left: 0; 
+    overflow-y: scroll;
     
 }
+
+
 /* .carousel-control-prev-icon,
 .carousel-control-next-icon {
     background-image: url("../img/graficos/s2/boton.png");
@@ -127,6 +132,7 @@ body{
     left: 0;
     background-color: #3fb7f4; 
     display: none; 
+    overflow-y: scroll;
     
 }
 
@@ -139,16 +145,29 @@ body{
     left: 0;
     background-color: #75b0f6; 
     display: none;
+    overflow-y: scroll;
+}
+.no_scroll{
+    overflow:hidden;
 }
 
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 750px){
 
     .img-enfermera,
     .img-linea-vertical,
     .ola-responsive-3,
     .ola-responsive-2{
         display: none;
+    }
+
+    .cr{
+        width: 30%; 
+        height: auto;
+    }
+
+    .img-linea-horizontal{
+        display: block;
     }
 
 }
