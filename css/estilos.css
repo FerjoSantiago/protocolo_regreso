@@ -152,7 +152,7 @@ body{
 }
 
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 770px){
 
     .img-enfermera,
     .img-linea-vertical,
@@ -166,8 +166,5 @@ body{
         height: auto;
     }
 
-    .img-linea-horizontal{
-        display: block;
-    }
 
 }

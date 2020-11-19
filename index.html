@@ -860,24 +860,50 @@
 
                 <div class="row py-3">
                     <div class="col-md-4">
-                        <!-- <input type="image" src="./img/graficos/s5/boton1.png" width="40%" height="auto"  id="btnimage1" class="btnScroll1"/>  -->
                         <button class="btnResponsive btn btn-block" onclick="boton1()">
                             <img src="./img/graficos/s5/boton1.png" alt=""width="40%" height="auto" >
                         </button>
+                    </div>
+                    <div id="divResponsive1" style="background-color: #8c68e6; display: none; border-radius: 20px;" class="animate__animated animate__bounceInUp">
+                        <div class="container py-3 text-center">
+                            <p style="color: white; font-size: auto;">
+                                Las personas pertenecientes a grupos de riesgo
+                                (estudiantes, docentes y personal administrativo)
+                                deberán continuar con sus actividades de manera remota.
+                            </p>
+                        </div>
                     </div>
 
                     <div class="col-md-4">
                         <button class="btnResponsive btn btn-block" onclick="boton2()">
                             <img src="./img/graficos/s5/boton2.png" alt=""width="40%" height="auto" >
                         </button>
-                        <!-- <input type="image" src="./img/graficos/s5/boton2.png" width="40%" height="auto" onclick="boton2()" id="btnimage2"/>  -->
                     </div>
+                    <div id="divResponsive2" style="background-color: #978fe5; display: none; border-radius: 20px;" class="animate__animated animate__bounceInUp">
+                        <div class="container py-3 text-center">
+                            <p style="color: white; font-size: auto;">
+                                Las personas pertenecientes a grupos de riesgo
+                                (estudiantes, docentes y personal administrativo)
+                                deberán continuar con sus actividades de manera remota.
+                            </p>
+                        </div>
+                    </div>
+
                     <div class="col-md-4">
                         <button class="btnResponsive btn btn-block" onclick="boton3()">
                             <img src="./img/graficos/s5/boton3.png" alt=""width="40%" height="auto" >
                         </button>
-                        <!-- <input type="image" src="./img/graficos/s5/boton3.png" width="40%" height="auto" onclick="boton3()"id="btnimage3"/>  -->
                     </div>
+                    <div id="divResponsive3" style="background-color: #ad5af4; display: none; border-radius: 20px;" class="animate__animated animate__bounceInUp">
+                        <div class="container py-3 text-center">
+                            <p style="color: white; font-size: auto;">
+                                Las personas pertenecientes a grupos de riesgo
+                                (estudiantes, docentes y personal administrativo)
+                                deberán continuar con sus actividades de manera remota.
+                            </p>
+                        </div>
+                    </div>
+
                 </div>
 
                 <div id="divboton1" style="background-color: #8c68e6; display: none; border-radius: 20px;" class="animate__animated animate__bounceInUp">
@@ -1301,40 +1327,67 @@
         <script>
 
             function boton1(){
-            
-                divboton1 = document.getElementById('divboton1');
-                divboton1.style.display = 'block';
-                divboton2 = document.getElementById('divboton2');
-                divboton2.style.display = 'none';
-                divboton3 = document.getElementById('divboton3');
-                divboton3.style.display = 'none';
+                var x = window.matchMedia("(max-width: 770px)")
 
-                window.scrollBy(0, 100);
-
+                if (x.matches) { // If media query matches
+                    divresponsive1 = document.getElementById('divResponsive1');
+                    divresponsive1.style.display = 'block';
+                    divresponsive2 = document.getElementById('divResponsive2');
+                    divresponsive2.style.display = 'none';
+                    divresponsive3 = document.getElementById('divResponsive3');
+                    divresponsive3.style.display = 'none';
+                } else {
+                    divboton1 = document.getElementById('divboton1');
+                    divboton1.style.display = 'block';
+                    divboton2 = document.getElementById('divboton2');
+                    divboton2.style.display = 'none';
+                    divboton3 = document.getElementById('divboton3');
+                    divboton3.style.display = 'none';
+                }
+                
             }
 
             function boton2(){
             
-                divboton1 = document.getElementById('divboton1');
-                divboton1.style.display = 'none';
-                divboton2 = document.getElementById('divboton2');
-                divboton2.style.display = 'block';
-                divboton3 = document.getElementById('divboton3');
-                divboton3.style.display = 'none';
+                var x = window.matchMedia("(max-width: 770px)")
 
-                window.scrollBy(0, 10);
+                if (x.matches) { // If media query matches
+                    divresponsive1 = document.getElementById('divResponsive1');
+                    divresponsive1.style.display = 'none';
+                    divresponsive2 = document.getElementById('divResponsive2');
+                    divresponsive2.style.display = 'block';
+                    divresponsive3 = document.getElementById('divResponsive3');
+                    divresponsive3.style.display = 'none';
+                } else {
+                    divboton1 = document.getElementById('divboton1');
+                    divboton1.style.display = 'none';
+                    divboton2 = document.getElementById('divboton2');
+                    divboton2.style.display = 'block';
+                    divboton3 = document.getElementById('divboton3');
+                    divboton3.style.display = 'none';
+                }
+
             }
 
             function boton3(){
             
-                divboton1 = document.getElementById('divboton1');
-                divboton1.style.display = 'none';
-                divboton2 = document.getElementById('divboton2');
-                divboton2.style.display = 'none';
-                divboton3 = document.getElementById('divboton3');
-                divboton3.style.display = 'block';
+                var x = window.matchMedia("(max-width: 770px)")
 
-                window.scrollBy(0, 10);
+                if (x.matches) { // If media query matches
+                    divresponsive1 = document.getElementById('divResponsive1');
+                    divresponsive1.style.display = 'none';
+                    divresponsive2 = document.getElementById('divResponsive2');
+                    divresponsive2.style.display = 'none';
+                    divresponsive3 = document.getElementById('divResponsive3');
+                    divresponsive3.style.display = 'block';
+                } else {
+                    divboton1 = document.getElementById('divboton1');
+                    divboton1.style.display = 'none';
+                    divboton2 = document.getElementById('divboton2');
+                    divboton2.style.display = 'none';
+                    divboton3 = document.getElementById('divboton3');
+                    divboton3.style.display = 'block';
+                }
             }
 
             
