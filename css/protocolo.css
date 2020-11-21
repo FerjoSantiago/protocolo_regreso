@@ -71,34 +71,16 @@ body{
 #myDiv3{
 
     z-index: 9999; 
-    width: 100%; 
-    height: 100%; 
     position: fixed; 
-    top: 0; 
-    left: 0; 
+    width:70%; 
+    height:50%;
+    top: 50%; 
+    left: 50%;  
+    margin-top: -15%; /*set to a negative number 1/2 of your height*/ 
+    margin-left: -35%; /*set to a negative number 1/2 of your width*/
     overflow-y: scroll;
     
 }
-
-
-/* .carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-image: url("../img/graficos/s2/boton.png");
-    
-}
-
-.carousel-control-next-icon:after
-{
-  content: '';
-  font-size: 40px;
-  color: #bccbfc;
-}
-
-.carousel-control-prev-icon:after {
-  content: '';
-  font-size: 40px;
-  color: #bccbfc;
-} */
 
 .carousel-indicators {
     margin: 10px;
@@ -108,7 +90,6 @@ body{
 .carousel-indicators ol {
     width: 20%;
 }
-
 
 .carousel-indicators li{
     height: 20px !important;
@@ -137,12 +118,7 @@ body{
 }
 
 #mhpantalla{
-    z-index: 9997; 
-    width: 100%; 
-    height: 100%; 
-    position: fixed; 
-    top: 0; 
-    left: 0;
+    
     background-color: #75b0f6; 
     display: none;
     overflow-y: scroll;
@@ -150,7 +126,6 @@ body{
 .no_scroll{
     overflow:hidden;
 }
-
 
 @media screen and (max-width: 770px){
 
@@ -166,5 +141,24 @@ body{
         height: auto;
     }
 
+    #nRealidad2,
+    #silla2{
+        text-align: justify;
+    }
 
+    .btnFooterResponsive{
+        align-content: space-between;
+    }
+    
+    #myDiv1Responsive,
+    #myDiv2Responsive,
+    #myDiv3Responsive{
+        z-index: 9999; 
+        position: fixed; 
+        width:100%; 
+        height:100%;
+        top: 0; 
+        left: 0;  
+        overflow-y: scroll;
+    }
 }
